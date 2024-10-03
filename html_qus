@@ -1,0 +1,154 @@
+### Basic Questions
+
+1. **What does HTML stand for?**
+
+   - HTML stands for HyperText Markup Language. It's the standard language used to create web pages.
+
+2. **What is the purpose of the `<head>` section in an HTML document?**
+
+   - The `<head>` section contains metadata about the document, such as the title, links to stylesheets, scripts, and other meta-information that is not displayed directly on the page.
+
+3. **What is the difference between block-level and inline elements?**
+
+   - Block-level elements occupy the full width available and start on a new line (e.g., `<div>`, `<h1>`). Inline elements only take up as much width as necessary and do not start on a new line (e.g., `<span>`, `<a>`).
+
+4. **What are semantic HTML elements?**
+
+   - Semantic elements clearly describe their meaning in a human- and machine-readable way (e.g., `<article>`, `<section>`, `<header>`, `<footer>`). They improve accessibility and SEO.
+
+5. **What is the purpose of the `<doctype>` declaration?**
+
+   - The `<!DOCTYPE html>` declaration tells the browser that the document is an HTML5 document, helping it to render the page correctly.
+
+### Intermediate Questions
+
+6. **How do you create a hyperlink in HTML?**
+
+   - You create a hyperlink using the `<a>` tag: `<a href="https://example.com">Link Text</a>`.
+
+7. **What is the difference between `<div>` and `<span>`?**
+
+   - `<div>` is a block-level element used for grouping larger sections of content, while `<span>` is an inline element used for styling parts of text within a block.
+
+8. **How can you include CSS styles in an HTML document?**
+
+   - CSS can be included in three ways: inline styles (using the `style` attribute), internal styles (within a `<style>` tag in the `<head>`), and external styles (linking to a separate CSS file with a `<link>` tag).
+
+9. **What is the purpose of the `<meta>` tag?**
+
+   - The `<meta>` tag provides metadata about the HTML document, such as character set, author, viewport settings for responsive design, and descriptions for SEO.
+
+10. **What are data attributes in HTML?**
+
+    - Data attributes allow you to store extra information on standard, semantic HTML elements. They are defined using the `data-` prefix, e.g., `<div data-user-id="123">`.
+
+### Advanced Questions
+
+11. **What is ARIA and why is it important?**
+
+    - ARIA (Accessible Rich Internet Applications) is a set of attributes that can be added to HTML elements to improve accessibility for users with disabilities, especially when using dynamic content and advanced user interface controls.
+
+12. **Explain the concept of a web form in HTML.**
+
+    - A web form is a section of a web page that allows users to enter data, which can be sent to a server for processing. It includes elements like `<input>`, `<textarea>`, `<select>`, and buttons.
+
+13. **What are HTML5 APIs? Name a few.**
+
+    - HTML5 APIs provide JavaScript interfaces to enable advanced features on the web. Examples include the Canvas API, Drag and Drop API, Geolocation API, and Web Storage API.
+
+14. **How do you make a list in HTML?**
+
+    - You can create ordered lists using the `<ol>` tag and unordered lists using the `<ul>` tag. List items are added with the `<li>` tag.
+
+15. **What is the purpose of the `<iframe>` tag?**
+
+    - The `<iframe>` tag is used to embed another HTML document within the current document, allowing you to display content from another source or website.
+Sure! Here are some additional HTML interview questions:
+
+16. **What is the difference between `GET` and `POST` methods in forms?**
+
+    - `GET` appends form data to the URL, making it visible and suitable for retrieving data. `POST` sends data in the request body, making it more secure and suitable for submitting sensitive data.
+
+17. **What is the `<canvas>` element and how is it used?**
+
+    - The `<canvas>` element is used to draw graphics on the fly via JavaScript. It allows for dynamic rendering of 2D shapes, images, and text.
+
+18. **What are the new input types introduced in HTML5?**
+
+    - New input types include `email`, `url`, `date`, `time`, `range`, `color`, and `search`, which provide built-in validation and user-friendly controls.
+
+19. **What is the purpose of the `alt` attribute in images?**
+
+    - The `alt` attribute provides alternative text for an image if it cannot be displayed. It is also important for accessibility, allowing screen readers to describe the image to visually impaired users.
+
+20. **How do you create a table in HTML?**
+
+    - You create a table using the `<table>` tag, along with `<tr>` for table rows, `<th>` for header cells, and `<td>` for data cells. Example:
+      ```html
+      <table>
+          <tr>
+              <th>Name</th>
+              <th>Age</th>
+          </tr>
+          <tr>
+              <td>John</td>
+              <td>30</td>
+          </tr>
+      </table>
+      ```
+
+21. **What are HTML entities?**
+
+    - HTML entities are special codes that represent characters not easily typed on a keyboard or reserved characters in HTML, like `&lt;` for `<` and `&amp;` for `&`.
+
+22. **What is the role of the `<link>` tag?**
+
+    - The `<link>` tag is used to link external resources like stylesheets to the HTML document, enhancing the presentation of the content.
+
+23. **How can you create a responsive layout using HTML?**
+
+    - A responsive layout can be created using a combination of flexible grid layouts, media queries in CSS, and responsive elements like images and videos that adapt to different screen sizes.
+
+24. **What is the `<meta charset="UTF-8">` tag?**
+
+    - This tag specifies the character encoding for the HTML document, ensuring that characters are displayed correctly across different browsers and devices.
+
+25. **What are `<header>`, `<nav>`, `<article>`, and `<footer>` elements used for?**
+
+    - These are semantic HTML5 elements used to define the structure of a webpage:
+      - `<header>`: contains introductory content or navigational links.
+      - `<nav>`: defines a set of navigation links.
+      - `<article>`: represents a self-contained piece of content.
+      - `<footer>`: contains footer information for a document or section.
+
+### Scenario-Based Questions
+
+26. **How would you optimize a webpage for SEO using HTML?**
+
+    - Use semantic HTML tags, include meta tags (like title and description), use heading tags properly, optimize images with `alt` attributes, and create meaningful URLs.
+
+27. **How would you ensure that your HTML is accessible?**
+
+    - Use semantic elements, provide alternative text for images, use ARIA roles where necessary, ensure proper contrast, and validate forms with accessible labels.
+
+28. **Explain how you would handle form validation in HTML.**
+
+    - HTML5 provides built-in validation attributes like `required`, `pattern`, and input types. For more complex validation, you can use JavaScript.
+
+29. **What is the purpose of the `defer` and `async` attributes in script tags?**
+
+    - The `defer` attribute allows the script to be executed after the HTML document has been parsed. The `async` attribute allows the script to be downloaded in parallel and executed as soon as it is available.
+
+30. **Can you explain how to embed audio and video in HTML?**
+
+    - You can use the `<audio>` and `<video>` tags to embed multimedia content. Attributes like `controls`, `autoplay`, and `loop` can enhance functionality:
+      ```html
+      <audio controls>
+          <source src="audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+      </audio>
+      <video width="320" height="240" controls>
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+      ```
